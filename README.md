@@ -1,2 +1,2 @@
-# godot-pong
-A Pong implementation in Godot 4
+# Godot Pong
+A Pong-like implementation in Godot 4.
