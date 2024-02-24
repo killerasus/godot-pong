@@ -1,3 +1,3 @@
 extends Area2D
 
-@export var SPEED = Vector2(200, 200)
+@export var speed = Vector2(200, 200)

@@ -1,3 +1,3 @@
 extends Area2D
 
-@export var SPEED = 300.0
+@export var speed = 300.0

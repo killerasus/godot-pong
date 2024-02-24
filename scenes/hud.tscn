@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpp7smb3huha"]
+
+[ext_resource type="Script" path="res://scripts/hud.gd" id="1_6easx"]
+[ext_resource type="FontFile" uid="uid://2sdlnowdji75" path="res://assets/fonts/Kenney High Square.ttf" id="1_a8lq6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_j65pi"]
+font = ExtResource("1_a8lq6")
+font_size = 72
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -640.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6easx")
+
+[node name="P1Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 591.0
+offset_top = 9.0
+offset_right = 631.0
+offset_bottom = 72.0
+text = "0"
+label_settings = SubResource("LabelSettings_j65pi")
+horizontal_alignment = 2
+
+[node name="P2Score" type="Label" parent="."]
+layout_mode = 0
+offset_left = 656.0
+offset_top = 9.0
+offset_right = 696.0
+offset_bottom = 72.0
+text = "0"
+label_settings = SubResource("LabelSettings_j65pi")
